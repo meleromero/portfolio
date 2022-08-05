@@ -12,7 +12,7 @@ html{
 }
 
 #inicio{
-    background: linear-gradient(rgba(73, 17, 163, 0.7), rgba(26, 8, 109, 0.7)), url("/imgs/imgfondo.jpg");
+    background: linear-gradient(rgba(73, 17, 163, 0.7), rgba(26, 8, 109, 0.7)), url("imgs/imgfondo.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
