@@ -51,7 +51,7 @@
     <!--sobre mi-->
     <section id="about">
         <div class="contenedor-foto">
-            <img src="/imgs/imgcv.png" alt="">
+            <img src="imgs/imgcv.png" alt="">
         </div>
         <div class="about">
             <p>Tengo 23 años y vivo en Córdoba capital. Estudio
@@ -59,7 +59,7 @@
                 he cursado Argentina Programa para formarme en programación.
                 No solo he aprendido con este curso sino que también soy autodidacta
                 e intento avanzar en desarrollo web por mi cuenta.</p>
-                <a href="/curriculum (1).pdf" download="curriculum">Descargar CV</a>
+                <a href="curriculum (1).pdf" download="curriculum">Descargar CV</a>
         </div>
     </section>
     
@@ -109,16 +109,16 @@
     <section id="contacto">
         <h3 class="titulo-seccion">¡Contactame!</h3>
         <div class="contenedor-form">
-        <form action="">
+        <form action="enviar.php" method="post">
             <div class="fila mitad">
-                <input type="text" placeholder="Nombre y apellido" class="input-mitad">
-                <input type="text" placeholder="E-mail">
+                <input type="text" name="nombre"  id="nombre" placeholder="Nombre y apellido" class="input-mitad">
+                <input type="text" name="email" id="email" placeholder="E-mail">
             </div>
             <div class="fila">
-                <input type="text" placeholder="Asunto" class="input-full">
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto" class="input-full">
             </div>
             <div class="fila">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="input-full">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" class="input-full">
                 </textarea>
                 <input type="submit" value="Enviar mensaje" class="btn-enviar">
             </div>
