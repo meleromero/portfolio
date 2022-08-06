@@ -389,10 +389,12 @@ html{
         max-width: 200px;
         margin: 0;
         
+        
     }
 
     #about .contenedor-foto img{
-        align-items: center;
+        max-width: 380px;
+        
         padding: 8px;
     }
 
