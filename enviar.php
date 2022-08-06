@@ -11,8 +11,8 @@ $header = "Enviado desde portfolio";
 $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
 mail($destinatario, $asunto, $mensaje, $header);
-echo"<script>alert('Correo enviado')</script>";
-echo"<script>setTimeout(\"location.href='index.html'\",1000)</script>";
+echo "<script>alert('Correo enviado')</script>";
+echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";
 
 
 ?>

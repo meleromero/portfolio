@@ -339,3 +339,72 @@ html{
     color: #fff;
 }
 
+
+/* screensize */
+@media only screen and (max-width: 800px) {
+    .redes{
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.responsive{
+        display: block;
+        background-color: black;
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px;
+
+    }
+
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+
+    nav.responsive ul li{
+        margin: 5px 0;
+
+    }
+
+    #icono-nav{
+        display: block;
+    }
+
+    #inicio .contenido .presentacion h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #about{
+        padding: 50px 0;
+        display: block;
+    }
+
+    #about .contenedor-foto{
+        max-width: 200px;
+        margin: 0;
+        
+    }
+
+    #about .contenedor-foto img{
+        align-items: center;
+        padding: 8px;
+    }
+
+    #about .about .titulo-seccion{
+        text-align: center;
+    }
+
+    #about .about h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+
+

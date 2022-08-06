@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Milagros Romero</title>
 
     <script src="https://kit.fontawesome.com/4cb1450a50.js" crossorigin="anonymous"></script>
@@ -25,10 +25,9 @@
                     </nav>
 
                     <!--icono menu-->
-                    <div id="icono-nav">
-                        <i class="fa-solid fa-bars"></i>
-                        
-                    </div>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
 
                     <!--iconos redes-->
                     <div class="redes">
@@ -125,5 +124,7 @@
         </form>
     </div>
     </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
